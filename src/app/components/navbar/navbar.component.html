@@ -1,16 +1,17 @@
-<div
-  class="flex items-center justify-between px-4 py-3 border-2 border-rose-500"
->
-  <div class="border-2 border-rose-500">
-    <a [routerLink]="['']"> <fa-icon [icon]="['fas', 'house']"></fa-icon></a>
-  </div>
-  <div>
-    <a [routerLink]="['']"><fa-icon [icon]="['fas', 'compass']"></fa-icon></a>
-  </div>
-  <div>
-    <a [routerLink]="['']"><fa-icon [icon]="['fas', 'book']"></fa-icon></a>
-  </div>
-  <div>
-    <a [routerLink]="['']"><fa-icon [icon]="['fas', 'user-gear']"></fa-icon></a>
-  </div>
+<div class="flex items-center justify-between px-4 py-3 bg-zinc-300">
+  <a [routerLink]="['']">
+    <fa-icon [icon]="['fas', 'house']" [classes]="['text-xl']"></fa-icon
+  ></a>
+
+  <a [routerLink]="['']"
+    ><fa-icon [icon]="['fas', 'compass']" [classes]="['text-xl']"></fa-icon
+  ></a>
+
+  <a [routerLink]="['']"
+    ><fa-icon [icon]="['fas', 'book']" [classes]="['text-xl']"></fa-icon
+  ></a>
+
+  <a [routerLink]="['']"
+    ><fa-icon [icon]="['fas', 'user-gear']" [classes]="['text-xl']"></fa-icon
+  ></a>
 </div>
