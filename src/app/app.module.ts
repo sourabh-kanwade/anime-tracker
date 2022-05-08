@@ -13,6 +13,7 @@ import {
   faCompass,
   faHouse,
   faUserGear,
+  faArrowLeft,
 } from '@fortawesome/free-solid-svg-icons';
 import { HeaderComponent } from './components/header/header.component';
 
@@ -24,6 +25,6 @@ import { HeaderComponent } from './components/header/header.component';
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faHouse, faBook, faCompass, faUserGear);
+    library.addIcons(faHouse, faBook, faCompass, faUserGear, faArrowLeft);
   }
 }
